@@ -1,0 +1,59 @@
+h1 {
+    font-size: 1.5rem;
+    color: #b0b0b0;
+    text-decoration: underline;
+}
+
+.image_section img{
+    height: 10rem;
+    width: 22vw;
+    background-size: cover;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.image_section{
+    margin-top: 2rem;
+}
+
+.title_class{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    height: 10rem;
+    width: 22vw;
+    opacity: 0.5;
+    background: black;
+    border: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .image_section img{
+        height: 15rem;
+        width: 100%;
+        background-size: cover;
+        border-radius: 0.5rem;
+        position: relative;
+    }
+    
+    .overlay{
+        position: absolute;
+        height: 15rem;
+        width: 100%;
+        opacity: 0.5;
+        background: black;
+        border: 0.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+
+}

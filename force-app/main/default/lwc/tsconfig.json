@@ -1,0 +1,20 @@
+{
+    // These sections are automatically generated
+  
+    "extends": "../../../../.sfdx/tsconfig.sfdx.json",
+    "include": [
+      "**/*.ts",
+      "../../../../.sfdx/typings/lwc**/*.d.ts"
+    ],
+    "exclude": [
+      "**/__tests__/**"
+    ],
+  
+    // You have to manually add the compilerOptions section
+  
+    "compilerOptions": {
+      "experimentalDecorators": false,
+      "target": "ESNext"
+    }
+  }
+  
